@@ -1,8 +1,9 @@
-Simple JS Environment
+# Simple JS Environment
 ===================
 
-Project environment for small JS proyects
+## Project environment for small JS proyects
 
+## Contents
 * grunt
 * Karma
 * Mocha
@@ -10,4 +11,14 @@ Project environment for small JS proyects
 * jshint
 * grunt-contrib-watch
 
-`npm install` from the root directory and ready to go!
+## How to
+
+### Dependencies
+run `npm install` from the root directory to get dependencies
+
+### File Watcher
+run `grunt watching` to execute the jshint, and karma tasks
+
+### Tests
+Test files must be under the _test_ directory and have a file name suffix of filename_.test.js_
+
